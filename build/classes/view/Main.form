@@ -1,0 +1,877 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Ph&#x1ea7;n m&#x1ec1;m thu th&#x1ead;p ch&#x1ee9;ng c&#x1ee9; v&#xe0; th&#xf4;ng tin m&#xe1;y t&#xed;nh"/>
+    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+      <Color id="Default Cursor"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Component id="jButton7" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jButton6" min="-2" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="chon_ca_cot1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="trang_thai_mang" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cong_duoc_mo" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="ket_noi_duoc_thiet_lap" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="bang_dinh_tuyen" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="du_lieu_qua_cong" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cac_tien_trinh" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="nguoi_dung_dang_nhap" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cau_hinh_mang" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="thong_tin_mang" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="clipboard_content" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="process_info" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cac_phien_dang_nhap" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="handle_process" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="swapfile" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="ram_img" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="trang_thai_mang_fn" max="32767" attributes="0"/>
+                                  <Component id="cong_duoc_mo_fn" max="32767" attributes="0"/>
+                                  <Component id="ket_noi_thiet_lap" max="32767" attributes="0"/>
+                                  <Component id="bang_dinh_tuyen_fn" max="32767" attributes="0"/>
+                                  <Component id="du_lieu_qua_cong_fn" max="32767" attributes="0"/>
+                                  <Component id="tien_trinh" max="32767" attributes="0"/>
+                                  <Component id="nguoi_dung_dang_nhap_fn" max="32767" attributes="0"/>
+                                  <Component id="cau_hinh_mang_fn" max="32767" attributes="0"/>
+                                  <Component id="thong_tin_mang_fn" max="32767" attributes="0"/>
+                                  <Component id="clipboard_content_fn" max="32767" attributes="0"/>
+                                  <Component id="process_info_fn" max="32767" attributes="0"/>
+                                  <Component id="phien_dang_nhap_fn" max="32767" attributes="0"/>
+                                  <Component id="handle_process_fn" max="32767" attributes="0"/>
+                                  <Component id="jTextField31" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jTextField32" alignment="0" pref="179" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="thong_bao_chua_chon_thu_muc" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="path" max="32767" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jButton1" min="-2" pref="108" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="206" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="0" pref="188" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="cau_hinh_may_tinh" min="-2" max="-2" attributes="0"/>
+                                  <Component id="tep_he_thong" min="-2" max="-2" attributes="0"/>
+                                  <Component id="registry" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lich_su_trinh_duyet" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="tep_gan_day" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="eventlog" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="tep_dang_mo" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="thong_tin_dich_vu" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="thong_tin_driver" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="list_dll" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="trinh_dieu_khien_tep" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="disk_img" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="chon_ca_cot2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="dump_cache" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jTextField33" pref="182" max="32767" attributes="0"/>
+                                  <Component id="cau_hinh_may_tinh_fn" pref="182" max="32767" attributes="0"/>
+                                  <Component id="tep_he_thong_fn" max="32767" attributes="0"/>
+                                  <Component id="registry_fn" max="32767" attributes="0"/>
+                                  <Component id="lich_su_trinh_duyet_fn" max="32767" attributes="0"/>
+                                  <Component id="tep_gan_day_fn" max="32767" attributes="0"/>
+                                  <Component id="eventlog_fn" max="32767" attributes="0"/>
+                                  <Component id="tep_dang_mo_fn" max="32767" attributes="0"/>
+                                  <Component id="thong_tin_dich_vu_fn" max="32767" attributes="0"/>
+                                  <Component id="thong_tin_driver_fn" max="32767" attributes="0"/>
+                                  <Component id="jTextField26" max="32767" attributes="0"/>
+                                  <Component id="jTextField29" max="32767" attributes="0"/>
+                                  <Component id="dump_cache_fn" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="ngay_gio" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="key_logger" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="cmd_history" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="do_phan_giai_dh" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="ma_nhan_dang_bao_mat" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                                  <Component id="phan_giai_dh" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="cmd_history_fn" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="jTextField23" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="ngay_gio_fn" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="ma_nhan_dang_fn" min="-2" pref="173" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                                          <Component id="chon_ca_cot3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="100" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="path" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="thong_bao_chua_chon_thu_muc" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="trang_thai_mang" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ngay_gio" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ngay_gio_fn" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="trang_thai_mang_fn" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="cong_duoc_mo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cong_duoc_mo_fn" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="key_logger" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextField23" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="ket_noi_duoc_thiet_lap" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ket_noi_thiet_lap" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cmd_history" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cmd_history_fn" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="bang_dinh_tuyen" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="bang_dinh_tuyen_fn" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="do_phan_giai_dh" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="phan_giai_dh" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="du_lieu_qua_cong" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="du_lieu_qua_cong_fn" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ma_nhan_dang_bao_mat" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ma_nhan_dang_fn" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="tien_trinh" min="-2" max="-2" attributes="0"/>
+                          <Component id="cac_tien_trinh" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="nguoi_dung_dang_nhap" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="nguoi_dung_dang_nhap_fn" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="cau_hinh_mang" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cau_hinh_mang_fn" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="thong_tin_mang" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="thong_tin_mang_fn" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="clipboard_content" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="clipboard_content_fn" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="process_info" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="process_info_fn" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="29" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jButton6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButton7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="cau_hinh_may_tinh" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cau_hinh_may_tinh_fn" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="tep_he_thong" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tep_he_thong_fn" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="registry" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="registry_fn" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lich_su_trinh_duyet" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lich_su_trinh_duyet_fn" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="tep_gan_day" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tep_gan_day_fn" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="eventlog" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="eventlog_fn" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chon_ca_cot3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="tep_dang_mo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tep_dang_mo_fn" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="thong_tin_dich_vu" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="thong_tin_dich_vu_fn" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="thong_tin_driver" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="thong_tin_driver_fn" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="list_dll" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextField26" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="trinh_dieu_khien_tep" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextField29" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="cac_phien_dang_nhap" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="phien_dang_nhap_fn" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="disk_img" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextField33" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="handle_process" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="handle_process_fn" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                              <Component id="dump_cache" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="dump_cache_fn" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="swapfile" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField31" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="chon_ca_cot2" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="ram_img" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextField32" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="chon_ca_cot1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ch&#x1ecd;n m&#x1ed9;t th&#x1b0; m&#x1ee5;c trong USB &#x111;&#x1ec3; ch&#x1ee9;a th&#xf4;ng tin thu th&#x1ead;p"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="path">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ch&#x1ecd;n th&#x1b0; m&#x1ee5;c"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="D&#x1eef; li&#x1ec7;u volatile"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="trang_thai_mang">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tr&#x1ea1;ng th&#xe1;i m&#x1ea1;ng"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="trang_thai_mangActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="D&#x1eef; li&#x1ec7;u non-volatile"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="cau_hinh_may_tinh">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="C&#x1ea5;u h&#xec;nh m&#xe1;y t&#xed;nh"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cau_hinh_may_tinh_fn">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="D&#x1eef; li&#x1ec7;u kh&#xe1;c"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="ngay_gio">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ng&#xe0;y gi&#x1edd; h&#x1ec7; th&#x1ed1;ng"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ngay_gio_fn">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="cong_duoc_mo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="C&#xe1;c c&#x1ed5;ng &#x111;&#x1b0;&#x1ee3;c m&#x1edf;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="trang_thai_mang_fn">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="ket_noi_duoc_thiet_lap">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="C&#xe1;c k&#x1ebf;t n&#x1ed1;i &#x111;&#xe3; &#x111;&#x1b0;&#x1ee3;c thi&#x1ebf;t l&#x1ead;p "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cong_duoc_mo_fn">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cong_duoc_mo_fnActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ket_noi_thiet_lap">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="bang_dinh_tuyen">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="B&#x1ea3;ng &#x111;&#x1ecb;nh tuy&#x1ebf;n"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="bang_dinh_tuyen_fn">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="du_lieu_qua_cong">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="D&#x1eef; li&#x1ec7;u trao &#x111;&#x1ed5;i qua c&#x1ed5;ng"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="du_lieu_qua_cong_fn">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="cac_tien_trinh">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="C&#xe1;c ti&#x1ebf;n tr&#xec;nh &#x111;ang ho&#x1ea1;t &#x111;&#x1ed9;ng"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tien_trinh">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="nguoi_dung_dang_nhap">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Th&#xf4;ng tin ng&#x1b0;&#x1edd;i d&#xf9;ng &#x111;&#x103;ng nh&#x1ead;p"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="nguoi_dung_dang_nhap_fn">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="cau_hinh_mang">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="C&#x1ea5;u h&#xec;nh m&#x1ea1;ng"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cau_hinh_mang_fn">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="tep_he_thong">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="C&#xe1;c t&#x1ec7;p h&#x1ec7; th&#x1ed1;ng"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tep_he_thong_fn">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="registry">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="D&#x1eef; li&#x1ec7;u Registry"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="registry_fn">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="lich_su_trinh_duyet">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="L&#x1ecb;ch s&#x1eed; tr&#xec;nh duy&#x1ec7;t "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="lich_su_trinh_duyet_fn">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="tep_gan_day">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="C&#xe1;c t&#x1ec7;p s&#x1eed; d&#x1ee5;ng g&#x1ea7;n &#x111;&#xe2;y"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tep_gan_day_fn">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="eventlog">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Event log"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="eventlog_fn">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="thong_tin_mang">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Th&#xf4;ng tin m&#x1ea1;ng"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="thong_tin_mang_fn">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="tep_dang_mo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="C&#xe1;c t&#x1ec7;p &#x111;ang m&#x1edf;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tep_dang_mo_fn">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tep_dang_mo_fnActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="clipboard_content">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Clipboard content"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="clipboard_content_fn">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="clipboard_content_fnActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="thong_tin_dich_vu">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Th&#xf4;ng tin c&#xe1;c d&#x1ecb;ch v&#x1ee5;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="thong_tin_dich_vu_fn">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="thong_tin_driver">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Th&#xf4;ng tin driver"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="thong_tin_driver_fn">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="process_info">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Process information"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="process_info_fn">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="key_logger">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Key Logger"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField23">
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="cmd_history">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Command history"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cmd_history_fn">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="cac_phien_dang_nhap">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="C&#xe1;c phi&#xea;n &#x111;&#x103;ng nh&#x1ead;p &#x111;ang ho&#x1ea1;t &#x111;&#x1ed9;ng"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="phien_dang_nhap_fn">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="list_dll">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="List DLL"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField26">
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="do_phan_giai_dh">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x110;&#x1ed9; ph&#xe2;n gi&#x1ea3;i c&#x1ee7;a &#x111;&#x1ed3;ng h&#x1ed3;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="phan_giai_dh">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="handle_process">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Handle process"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="ma_nhan_dang_bao_mat">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="M&#xe3; nh&#x1ead;n d&#x1ea1;ng b&#x1ea3;o m&#x1ead;t"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ma_nhan_dang_fn">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="trinh_dieu_khien_tep">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tr&#xec;nh &#x111;i&#x1ec1;u khi&#x1ec3;n h&#x1ec7; th&#x1ed1;ng t&#x1ec7;p"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField29">
+    </Component>
+    <Component class="javax.swing.JTextField" name="handle_process_fn">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="chon_ca_cot1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Ch&#x1ecd;n t&#x1ea5;t c&#x1ea3; &#x1edf; c&#x1ed9;t n&#xe0;y"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="chon_ca_cot1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tho&#xe1;t"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Quay l&#x1ea1;i"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton7ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="chon_ca_cot2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Ch&#x1ecd;n t&#x1ea5;t c&#x1ea3; &#x1edf; c&#x1ed9;t n&#xe0;y"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="chon_ca_cot2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="chon_ca_cot3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Ch&#x1ecd;n t&#x1ea5;t c&#x1ea3; &#x1edf; c&#x1ed9;t n&#xe0;y"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="chon_ca_cot3ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="swapfile">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Swap file"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField31">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField31ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="ram_img">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="RAM image"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField32">
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="disk_img">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Disk image"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField33">
+    </Component>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="99" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="jButton4" max="32767" attributes="0"/>
+                      <Component id="chon_tat_ca" max="32767" attributes="0"/>
+                      <Component id="jButton2" max="32767" attributes="0"/>
+                      <Component id="jButton3" max="32767" attributes="0"/>
+                      <Component id="jButton5" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="24" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                  <Component id="chon_tat_ca" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jButton4" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jButton5" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="23" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JCheckBox" name="chon_tat_ca">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="CH&#x1ecc;N T&#x1ea4;T C&#x1ea2; C&#xc1;C TH&#xd4;NG TIN"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="chon_tat_caActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="B&#x1eae;T &#x110;&#x1ea6;U THU TH&#x1eac;P"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="T&#x1ea0;M D&#x1eea;NG"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="K&#x1ebe;T TH&#xda;C THU TH&#x1eac;P"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton4ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="L&#x1af;U TR&#x1ea0;NG TH&#xc1;I THU TH&#x1eac;P"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JCheckBox" name="dump_cache">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Dump informaktion on caches"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="dump_cache_fn">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="thong_bao_chua_chon_thu_muc">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value=" "/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
